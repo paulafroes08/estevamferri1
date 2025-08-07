@@ -1,0 +1,12 @@
+import matplotlib
+import matplotlib.pyplot
+
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 6, 8, 10]
+
+matplotlib.pyplot.figure(figsize=(2,2))
+matplotlib.pyplot.plot(x,y)
+matplotlib.pyplot.xlabel('Eixo x')
+matplotlib.pyplot.ylabel('Eixo y')
+matplotlib.pyplot.title('Gráfico de linha')
+matplotlib.pyplot.show()
