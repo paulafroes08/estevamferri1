@@ -1,0 +1,13 @@
+import seaborn
+import numpy
+import matplotlib
+
+x = numpy.random.normal(size=100)
+y = numpy.random.normal(size=100)
+
+matplotlib.pyplot.figure(figsize=(2,2))
+seaborn.scatterplot(x=x, y=y)
+matplotlib.pyplot.xlabel('X')
+matplotlib.pyplot.ylabel('Y')
+matplotlib.pyplot.title('Gráfico de Dispersão')
+matplotlib.pyplot.show()
