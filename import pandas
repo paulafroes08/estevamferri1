@@ -1,0 +1,5 @@
+import pandas
+data = {'nome': ['alice', 'bob', 'charlie'], 'idade': [25,30,35]}
+df = pandas.DataFrame(data)
+
+df
