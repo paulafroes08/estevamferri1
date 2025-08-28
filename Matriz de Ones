@@ -1,0 +1,6 @@
+import numpy as np
+
+matriz_ones = np.ones((2, 3))
+
+print("Matriz de ones:")
+print(matriz_ones)
