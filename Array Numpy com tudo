@@ -1,0 +1,8 @@
+import numpy as np
+
+data = np.array([4,6,0])
+
+print("numero de dimensões:", data.ndim)
+print("forma de array:", data.shape)
+print("numero total de elementos:", data.size)
+print("tipo de dados dos elementos:", data.dtype)
