@@ -1,0 +1,4 @@
+matriz_vazia np.empty ((2, 2))
+
+print("Matriz vazia:")
+print(matriz_vazia) 
