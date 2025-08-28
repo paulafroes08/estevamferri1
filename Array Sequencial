@@ -1,0 +1,4 @@
+array_sequencial = np.arange(1, 11, 2)
+
+print("Array sequencial:")
+print(array_sequencial)
