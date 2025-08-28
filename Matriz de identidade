@@ -1,0 +1,4 @@
+matriz_identidade = np.eye(3)
+
+print("Matriz identidade:")
+print(matriz_identidade)
