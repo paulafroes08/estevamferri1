@@ -1,0 +1,10 @@
+import numpy as np
+
+# Matriz 1: Dimensão 2x2
+matriz1 = np.array ([[3, 1], [2,4]])
+
+# Exibindo as matrizes
+print("Matriz 1:")
+print(matriz1)
+
+matriz1
