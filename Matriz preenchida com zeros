@@ -1,0 +1,6 @@
+import numpy as np
+
+matriz_zeros = np.zeros((2, 3))
+
+print("Matriz de zeros:")
+print(matriz_zeros)
