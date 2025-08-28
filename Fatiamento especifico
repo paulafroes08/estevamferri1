@@ -1,0 +1,15 @@
+import numpy as np
+data = np.array([1, 2, 3])
+
+# Exemplo 1: Acessando um elemento específico
+print(data[0]) # Saída: 1
+print(data[1]) # Saída: 2
+
+Exemplo 2: Fatiando para obter os dois primeiros elementos
+print(data[0:2]) # Saída: [1, 2]
+
+Exemplo 3: Fatiando para obter todos os elementos a partir do segundo
+print(data[1:]) # Saída: [2, 3]
+
+Exemplo 4: Fatiando para obter os dois últimos elementos
+print(data[-2:]) # Saída: [2, 3]
